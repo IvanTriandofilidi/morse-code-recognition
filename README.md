@@ -2,7 +2,7 @@
 
 **Audio-to-text sequence modeling with mel spectrograms, a CNN–BiLSTM encoder, and CTC.**
 
-[![Tests](https://github.com/IvanTriandofilidi/Morse-code-recognition.-ASR/actions/workflows/ci.yml/badge.svg)](https://github.com/IvanTriandofilidi/Morse-code-recognition.-ASR/actions/workflows/ci.yml)
+[![Tests](https://github.com/IvanTriandofilidi/morse-code-recognition/actions/workflows/ci.yml/badge.svg)](https://github.com/IvanTriandofilidi/morse-code-recognition/actions/workflows/ci.yml)
 ![Python](https://img.shields.io/badge/Python-3.11%2B-3776AB?logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-sequence_modeling-EE4C2C?logo=pytorch&logoColor=white)
 
@@ -34,8 +34,8 @@ The default model contains **7,821,053 trainable parameters**. Each recording is
 ## Quick start
 
 ```bash
-git clone https://github.com/IvanTriandofilidi/Morse-code-recognition.-ASR.git
-cd Morse-code-recognition.-ASR
+git clone https://github.com/IvanTriandofilidi/morse-code-recognition.git
+cd morse-code-recognition
 python -m venv .venv
 # macOS / Linux: source .venv/bin/activate
 # Windows PowerShell: .venv\Scripts\Activate.ps1
@@ -77,9 +77,9 @@ Training saves split IDs, audio hashes, per-epoch metrics, and the checkpoint wi
 
 ## Experiments and status
 
-The original notebook contains two saved ten-epoch training logs. The second starts from an external `epoch60.pt` checkpoint. These are separate recorded segments, not a continuous reproduced run.
+The figure shows one saved ten-epoch training segment with training and validation CTC loss. These are historical logs, not a newly reproduced run.
 
-![Saved training and validation loss segments](docs/assets/training-history.png)
+![Saved training and validation CTC loss](docs/assets/training-history.png)
 
 The full dataset and trained checkpoint are not distributed here. The package is verified with tests and a synthetic training/evaluation run; full-data recognition accuracy has not yet been re-measured. [Evaluation notes](docs/evaluation.md) explain the historical results and changes affecting comparability.
 
@@ -101,8 +101,6 @@ pytest -q
 
 ## Sources
 
-- [Research notebook](https://colab.research.google.com/drive/1No2sGkfO9HtZb6SGwFen3HsfVQ_IXsYz)
-- [Original repository snapshot](https://github.com/IvanTriandofilidi/Morse-code-recognition.-ASR/tree/fd58dbbd1dac0c57ab422a7b092d00ac2ca9b898)
 - [Dataset competition](https://www.kaggle.com/competitions/morse-decoder)
 
 Dataset access and reuse follow the provider's terms. Synthetic examples contain no competition recordings. No separate open-source license has been granted for this repository.

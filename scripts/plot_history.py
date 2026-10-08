@@ -10,9 +10,9 @@ import matplotlib.pyplot as plt
 root = Path(__file__).resolve().parents[1]
 data = json.loads((root / "reports/historical-training.json").read_text())
 plt.rcParams.update({"font.family": "DejaVu Sans", "font.size": 11})
-fig, axes = plt.subplots(1, 2, figsize=(14, 4.7), layout="constrained")
+fig, ax = plt.subplots(figsize=(9, 4.7), layout="constrained")
 fig.suptitle("Recorded training history", fontsize=21, fontweight="bold")
-for ax, run in zip(axes, data["segments"]):
+for run in data["segments"][:1]:
     epochs = run["epochs"]
     for key, label, color in [("train_loss", "Training", "#245BB2"),
                                ("validation_loss", "Validation", "#D06D27")]:
