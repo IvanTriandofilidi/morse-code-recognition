@@ -1,0 +1,118 @@
+{
+  "source_commit": "fd58dbbd1dac0c57ab422a7b092d00ac2ca9b898",
+  "source_sha256": "981f699018ac59994e01b63a7275f5af6a413f734ec4eefd410792f90b233b69",
+  "segments": [
+    {
+      "label": "Initial saved segment",
+      "source_cell": 42,
+      "epochs": [
+        {
+          "epoch": 1,
+          "train_loss": 4.093121,
+          "validation_loss": 3.98491
+        },
+        {
+          "epoch": 2,
+          "train_loss": 3.989317,
+          "validation_loss": 3.963831
+        },
+        {
+          "epoch": 3,
+          "train_loss": 3.941617,
+          "validation_loss": 3.867945
+        },
+        {
+          "epoch": 4,
+          "train_loss": 3.865739,
+          "validation_loss": 3.81314
+        },
+        {
+          "epoch": 5,
+          "train_loss": 3.774783,
+          "validation_loss": 3.625616
+        },
+        {
+          "epoch": 6,
+          "train_loss": 3.576736,
+          "validation_loss": 3.45107
+        },
+        {
+          "epoch": 7,
+          "train_loss": 3.455405,
+          "validation_loss": 3.367918
+        },
+        {
+          "epoch": 8,
+          "train_loss": 3.365128,
+          "validation_loss": 3.278921
+        },
+        {
+          "epoch": 9,
+          "train_loss": 3.293157,
+          "validation_loss": 3.203395
+        },
+        {
+          "epoch": 10,
+          "train_loss": 3.239343,
+          "validation_loss": 3.170117
+        }
+      ]
+    },
+    {
+      "label": "Resume from external checkpoint",
+      "source_cell": 45,
+      "epochs": [
+        {
+          "epoch": 1,
+          "train_loss": 0.859171,
+          "validation_loss": 0.678085
+        },
+        {
+          "epoch": 2,
+          "train_loss": 0.896202,
+          "validation_loss": 0.731403
+        },
+        {
+          "epoch": 3,
+          "train_loss": 0.941701,
+          "validation_loss": 0.781175
+        },
+        {
+          "epoch": 4,
+          "train_loss": 0.963873,
+          "validation_loss": 0.801868
+        },
+        {
+          "epoch": 5,
+          "train_loss": 0.937236,
+          "validation_loss": 0.775005
+        },
+        {
+          "epoch": 6,
+          "train_loss": 0.896996,
+          "validation_loss": 0.771418
+        },
+        {
+          "epoch": 7,
+          "train_loss": 0.868743,
+          "validation_loss": 0.759181
+        },
+        {
+          "epoch": 8,
+          "train_loss": 0.834688,
+          "validation_loss": 0.7438
+        },
+        {
+          "epoch": 9,
+          "train_loss": 0.797553,
+          "validation_loss": 0.736745
+        },
+        {
+          "epoch": 10,
+          "train_loss": 0.771444,
+          "validation_loss": 0.720047
+        }
+      ]
+    }
+  ]
+}

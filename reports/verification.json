@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-08",
+  "python": "3.12.14",
+  "platform": "Windows",
+  "dependencies": {
+    "torch": "2.14.1+cpu",
+    "librosa": "0.11.0",
+    "numpy": "2.5.2",
+    "matplotlib": "3.11.2",
+    "soundfile": "0.13.1",
+    "pytest": "9.1.1",
+    "ruff": "0.16.10"
+  },
+  "unit_tests_passed": 14,
+  "walkthrough": "all code cells executed",
+  "smoke": {
+    "dataset": "8 synthetic examples",
+    "epochs": 1,
+    "hidden_size": 8,
+    "layers": 1,
+    "predictions": 8,
+    "purpose": "execution validation, not model-quality evaluation"
+  }
+}
